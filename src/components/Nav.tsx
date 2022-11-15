@@ -8,8 +8,8 @@ export const Nav: FC<{}> = () => {
         <NavItem page="introduction">Introduction</NavItem>
         <NavItem page="experience">Work experience</NavItem>
         <NavItem page="techniques">Techniques</NavItem>
-        {/* <NavItem>Techniques</NavItem>
-        <NavItem>Projects</NavItem>
+        <NavItem page="projects">Projects</NavItem>
+        {/* 
         <NavItem>Contact</NavItem> */}
       </ul>
     </nav>
