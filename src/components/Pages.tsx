@@ -9,7 +9,7 @@ export const Pages: FC<PropsWithChildren<Props>> = () => {
   const activePage = useNavStore((s) => s.page);
 
   return (
-    <div className="flex-1 relative w-full pl-12 gap-12 flex flex-col">
+    <div className="flex-1 relative w-full pl-12 gap-12 flex flex-col mb-12">
       {Object.keys(pages).map((page) => (
         <Page key={page} page={page} active={activePage === page} />
       ))}
