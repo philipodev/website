@@ -1,4 +1,4 @@
-import React, { FC, PropsWithChildren } from "react";
+import { FC, PropsWithChildren, useEffect, useRef } from "react";
 import pages, { PageName } from "../pages";
 import { useNavStore } from "../store/nav";
 import classNames from "classnames";
@@ -22,19 +22,25 @@ interface PageProps {
   active?: boolean;
 }
 
-const Page: FC<PageProps> = React.forwardRef<HTMLDivElement, PageProps>(
-  ({ page }, ref) => {
-    return (
-      <section
-        ref={ref}
-        key={page}
-        className={classNames("transition duration-700 w-full", {})}
-      >
-        {renderPage(page)}
-      </section>
-    );
-  }
-);
+const Page: FC<PageProps> = ({ page, active }) => {
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (ref.current && active) {
+      ref.current.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [active, ref]);
+
+  return (
+    <section
+      ref={ref}
+      key={page}
+      className={classNames("transition duration-700 w-full", {})}
+    >
+      {renderPage(page)}
+    </section>
+  );
+};
 
 function renderPage(page: PageName) {
   const Page = pages[page];

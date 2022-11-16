@@ -1,9 +1,10 @@
 import { FC, PropsWithChildren } from "react";
 import { useNavStore } from "../store/nav";
 import classNames from "classnames";
+import { PageName } from "../pages";
 
 interface Props {
-  page: string;
+  page: PageName;
 }
 
 export const NavItem: FC<PropsWithChildren<Props>> = ({ children, page }) => {

@@ -9,6 +9,7 @@ export const Nav: FC<{}> = () => {
         <NavItem page="experience">Work experience</NavItem>
         <NavItem page="techniques">Techniques</NavItem>
         <NavItem page="projects">Projects</NavItem>
+        <NavItem page="contact">Contact</NavItem>
         {/* 
         <NavItem>Contact</NavItem> */}
       </ul>

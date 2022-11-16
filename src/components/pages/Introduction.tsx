@@ -1,6 +1,12 @@
 export function Introduction() {
   return (
     <>
+      <div className="flex justify-end pb-14 pt-[93px]">
+        <h2 className="text-4xl lowercase w-[200px] text-right pt-[16px]">
+          Philip Andersson
+        </h2>
+      </div>
+
       <h3>Introduction</h3>
       <p>
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-hand">

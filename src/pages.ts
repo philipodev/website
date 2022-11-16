@@ -1,3 +1,4 @@
+import { Contact } from "./components/pages/Contact";
 import { Experience } from "./components/pages/Experience";
 import { Introduction } from "./components/pages/Introduction";
 import { Projects } from "./components/pages/Projects";
@@ -12,6 +13,7 @@ const pages: PagesMap = {
   experience: Experience,
   techniques: Techniques,
   projects: Projects,
+  contact: Contact,
 };
 
 export type PageName = keyof PagesMap;
