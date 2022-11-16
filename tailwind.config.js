@@ -12,6 +12,10 @@ module.exports = {
         hand: ["Pacifico", "cursive"],
       },
 
+      screens: {
+        print: { raw: "print" },
+      },
+
       // add background image
       backgroundImage: {
         profile: "url('./large.jpg')",

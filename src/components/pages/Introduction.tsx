@@ -1,3 +1,5 @@
+import philip from "../../large.jpg";
+
 export function Introduction() {
   return (
     <>
@@ -9,7 +11,7 @@ export function Introduction() {
 
       <h3>Introduction</h3>
       <p>
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-hand">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-hand print:text-black">
           Hello there!
         </span>{" "}
         I'm a senior front end engineer with more than 10 years of experience in
@@ -22,6 +24,12 @@ export function Introduction() {
         you'll see all aspects of software development: requirements gathering,
         planning, design and implementation.
       </p>
+
+      <img
+        src={philip}
+        alt="Philip Andersson"
+        className="w-1/2 print:block hidden rounded-xl mt-10"
+      />
     </>
   );
 }

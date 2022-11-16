@@ -13,3 +13,7 @@ h3 {
 h4 {
   @apply text-xl pb-4 text-secondary;
 }
+
+@media print {
+  .page-break { page-break-before: always; }
+}

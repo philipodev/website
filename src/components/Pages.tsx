@@ -38,6 +38,8 @@ const Page: FC<PageProps> = ({ page, active }) => {
       className={classNames("transition duration-700 w-full", {})}
     >
       {renderPage(page)}
+
+      <div className="page-break" />
     </section>
   );
 };
