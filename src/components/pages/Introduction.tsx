@@ -1,8 +1,8 @@
 export function Introduction() {
   return (
     <>
-      <div className="flex justify-end pb-14 pt-[93px]">
-        <h2 className="text-4xl lowercase w-[200px] text-right pt-[16px]">
+      <div className="flex md:justify-end pb-14 pt-[93px]">
+        <h2 className="text-4xl lowercase w-[200px] md:text-right pt-[16px]">
           Philip Andersson
         </h2>
       </div>

@@ -10,7 +10,7 @@ export function Techniques() {
       </p>
 
       <h4 className="pt-4">Frontend</h4>
-      <ul className="flex gap-4 mb-6">
+      <ul className="flex gap-4 mb-6 flex-wrap">
         <Technique name="React" iconUrl={"/icons/react.svg"} />
         <Technique name="Redux" iconUrl={"/icons/redux.svg"} />
         <Technique name="JavaScript" iconUrl={"/icons/js.svg"} />
@@ -19,20 +19,20 @@ export function Techniques() {
       </ul>
 
       <h4>Tooling</h4>
-      <ul className="flex gap-4 mb-6">
+      <ul className="flex gap-4 mb-6 flex-wrap">
         <Technique name="Webpack" iconUrl={"/icons/webpack.svg"} />
         <Technique name="Vite" iconUrl={"/icons/vitejs.svg"} />
       </ul>
 
       <h4>Backend</h4>
-      <ul className="flex gap-4 mb-6">
+      <ul className="flex gap-4 mb-6 flex-wrap">
         <Technique name="Node.js" iconUrl={"/icons/nodejs.svg"} />
         <Technique name="AWS" iconUrl={"/icons/aws.svg"} />
         <Technique name="Docker" iconUrl={"/icons/docker.svg"} />
       </ul>
 
       <h4>Databases</h4>
-      <ul className="flex gap-4 mb-6">
+      <ul className="flex gap-4 mb-6 flex-wrap">
         <Technique name="MongoDB" iconUrl={"/icons/mongodb.svg"} />
         <Technique name="MySQL" iconUrl={"/icons/mysql.svg"} />
       </ul>
