@@ -14,7 +14,7 @@ module.exports = {
 
       // add background image
       backgroundImage: {
-        profile: "url('./large.png')",
+        profile: "url('./large.jpg')",
       },
     },
   },
