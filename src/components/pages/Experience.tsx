@@ -21,7 +21,7 @@ export function Experience() {
           title="Lead Full-stack Developer @ PSK Syd AB"
         >
           Taking lead of the development building and maintaining and ERP system
-          with a IBM Domino backend. Introdused micro-service architecture and a
+          with a IBM Domino backend. Introduced micro-service architecture and a
           React frontend. This meant a decoupling of the frontend and backend
           and a more flexible and scalable system.
         </TimelineItem>
