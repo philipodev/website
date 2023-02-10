@@ -15,7 +15,7 @@ export function Introduction() {
           Hello there!
         </span>{" "}
         I'm a senior front end engineer with more than 10 years of experience in
-        web developement. I'm a 29 year old from southern Sweden 🇸🇪
+        web developement. I'm a 30 year old from southern Sweden 🇸🇪
       </p>
 
       <p>
